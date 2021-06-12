@@ -1,0 +1,44 @@
+
+
+.task-item{
+    padding: 13px;
+    border-bottom: 1px solid rgba(230, 230, 230, 1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.task-item:hover{
+    background-color: rgba(30, 30, 30, 0.05);
+}
+
+.task-action{
+    display: flex;
+    margin-left: 10px;
+}
+
+.edit-action:hover{
+    color: steelblue;
+}
+
+.delete-action:hover{
+    color: red;
+}
+
+.action-button{
+    padding: 4px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.action-button:hover{
+    background-color: rgba(200, 200, 200, 0.3);
+}
+
+.action-edit{
+    display: flex;
+}
+
+.commit-action:hover{
+    color: green;
+}

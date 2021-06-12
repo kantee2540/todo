@@ -1,0 +1,21 @@
+.input-container{
+    border: 1px solid lightgray;
+    padding: 7px;
+    border-radius: 8px;
+}
+
+.input-form{
+    width: 100%;
+    border: none;
+    border-radius: 8px;
+    padding: 10px;
+    display: block;
+    border: 1px solid lightgray;
+    font-size: 15px;
+    transition: border-color 0.2s;
+}
+
+.input-form:focus, input:focus{
+    outline: none;
+    border-color: steelblue;
+}
